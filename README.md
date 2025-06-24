@@ -52,6 +52,7 @@ To confirm similarity between the datasets, the following statistical tests are 
 - **Chi-Square Test** for checking the similarity of the distributions of the categorical variable
 - **Kolmogorov-Smirnov (K-S) Test** for checking the similarity of the distributions of Value1 and Value2 accross datasets.
 - H0- Distributions of the two samples are same. H1- Distributions of the samples are significantly different
+- p value of the tests are checked and if p<0.05 H0 is rejected and H0 is not rejected otherwise
 
 ## Results
 Code was run and the results are integrated in the last section of the jupyter notebook, coding_task.ipynb.
