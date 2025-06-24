@@ -49,8 +49,9 @@ The similarity between the original and new datasets is validated through:
 ## 5. Statistical Tests
 
 To confirm similarity between the datasets, the following statistical tests are used:
-- **Chi-Square Test** for comparing the distributions of the categorical variable
+- **Chi-Square Test** for checking the similarity of the distributions of the categorical variable
 - **Kolmogorov-Smirnov (K-S) Test** for checking the similarity of the distributions of Value1 and Value2 accross datasets.
+- H0- Distributions of the two samples are same. H1- Distributions of the samples are significantly different
 
 ## Results
 Code was run and the results are integrated in the last section of the jupyter notebook, coding_task.ipynb.
